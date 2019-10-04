@@ -1,0 +1,38 @@
+* {
+  border: 1px solid red !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.toolbar {
+  padding: 20px 0 40px;
+}
+
+.navbar {
+  flex: auto;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.logo-img {
+  vertical-align: bottom;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item:hover {
+  color: tomato;
+}
+
+.header-img {
+  width: 100%;
+  vertical-align: bottom;
+  margin-bottom: 30px;
+}
