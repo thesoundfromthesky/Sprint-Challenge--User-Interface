@@ -21,6 +21,12 @@ section {
   border-bottom: 1px dashed black;
 }
 
+.mid .card:nth-child(1) {
+  margin-bottom: 50px;
+}
+.mid .card:nth-child(2) {
+  margin-bottom: 50px;
+}
 .mid .card .card-title {
   padding-top: 15px;
 }

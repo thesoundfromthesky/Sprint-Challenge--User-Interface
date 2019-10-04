@@ -3,3 +3,8 @@ img {
   height: auto;
   vertical-align: bottom;
 }
+
+button {
+  outline: none;
+  cursor: pointer;
+}
