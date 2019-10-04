@@ -2,6 +2,8 @@
   border: 1px solid red !important;
 }
 
+/* Header */
+
 .d-flex {
   display: flex;
 }
@@ -33,10 +35,16 @@
 
 .header-img {
   width: 100%;
+  height: auto;
   vertical-align: bottom;
+}
+
+.margin-30 {
   margin-bottom: 30px;
 }
 
+/* box Questions
+ */
 .middle-content .boxes .box1 {
   background: teal;
 }
@@ -66,4 +74,10 @@
 }
 .middle-content .boxes .box10 {
   background: dodgerblue;
+}
+
+/* About page Begin */
+
+.intro-about {
+  padding: 30px;
 }
