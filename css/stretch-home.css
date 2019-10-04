@@ -1,0 +1,95 @@
+.boxes {
+}
+
+.boxes .box1 {
+  animation: rotateX 1s ease-in-out infinite;
+}
+
+@keyframes rotateX {
+  from {
+    transform: rotateX(0);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+.boxes .box2 {
+  animation: rotateY 1s cubic-bezier(0.43, -0.83, 0, 0.78) infinite;
+}
+
+@keyframes rotateY {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.boxes .box3 {
+  animation: rotate 1s cubic-bezier(0.49, 2.65, 0.18, -0.49) infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.boxes .box4 {
+  animation: rainbow 10s ease-in-out infinite alternate;
+}
+
+@keyframes rainbow {
+  0% {
+    background: hsla(0, 100%, 50%, 0.8);
+  }
+  15% {
+    background: hsla(30, 100%, 50%, 0.8);
+  }
+  30% {
+    background: hsla(60, 100%, 50%, 0.8);
+  }
+  45% {
+    background: hsla(90, 100%, 50%, 0.8);
+  }
+  60% {
+    background: hsla(170, 100%, 50%, 0.8);
+  }
+  75% {
+    background: hsla(190, 100%, 50%, 0.8);
+  }
+  90% {
+    background: hsla(250, 100%, 50%, 0.8);
+  }
+  100% {
+    background: hsla(270, 100%, 50%, 0.8);
+  }
+}
+
+.boxes .box5 {
+  animation: shake .3s ease infinite alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(-1px, -1px);
+  }
+  50% {
+    transform: translate(1px, -1px);
+  }
+  75% {
+    transform: translate(-11px, 1px);
+  }
+  100% {
+    transform: translate(1px, 1px);
+  }
+}

@@ -1,0 +1,40 @@
+/* * {
+    border: 1px solid red !important;
+  } */
+
+.intro-about {
+  padding: 20px;
+  border-bottom: 1px dashed black;
+}
+
+section {
+  padding: 20px;
+}
+.mid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mid .card {
+  width: 48%;
+  border-bottom: 1px dashed black;
+}
+
+.mid .card:nth-child(1) {
+  margin-bottom: 50px;
+}
+.mid .card:nth-child(2) {
+  margin-bottom: 50px;
+}
+.mid .card .card-title {
+  padding-top: 15px;
+}
+
+.mid .card .card-action {
+  margin: 20px 0;
+  padding: 10px 25px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 12px;
+}
